@@ -31,9 +31,53 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            文章目录
+            JUST DO IT
           </p>
-          <div class="toc-container hidden lg:block">
+          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
+            
+              
+                <a href="https://github.com/ihtao127" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-github-line"></i>
+                </a>
+              
+            
+              
+                <a href="https://twitter.com/ihtao127" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-twitter-line"></i>
+                </a>
+              
+            
+              
+                <a href="https://weibo.com/ihtao127" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-weibo-line"></i>
+                </a>
+              
+            
+              
+                <a href="https://zhihu.com/people/ihtao127" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-zhihu-line"></i>
+                </a>
+              
+            
+              
+                <a href="https://facebook.com/ihtao127" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-facebook-line"></i>
+                </a>
+              
+            
+              
+            
+              
+            
+              
+                <a href="https://www.instagram.com/ihtao127" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-instagram-line"></i>
+                </a>
+              
+            
+              
+            
+              
             
           </div>
         </div>
@@ -78,59 +122,31 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">关于</h1>
-        <div class="text-sm text-gray-700 lg:my-8">
-          1990-01-27 / 1 min read
-        </div>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
+        <h2 class="text-lg text-gray-700 mb-8">
+          <i class="remixicon-bookmark-line"></i> gitalk
+        </h2>
         
-        <div class="post-content yue">
-          <p><strong>我是海涛，我选择做我自己！</strong></p>
-<!-- more -->
-<p>一个喜欢摄影、跑步、听音乐的90后单身汪。</p>
-<p>2012年毕业于四川大学计算机学院。<br>
-目前就职于中国科学院近代物理研究所，从事控制系统相关的工作。</p>
-<p>欢迎大家通过各种方式与我联系、交流。</p>
-<figure data-type="image" tabindex="1"><img src="https://ihtao127.github.io/post-images/1567415618016.jpg" alt=""></figure>
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
+    
+    <div class="content">
+      <a href="https://ihtao127.github.io/post/gridea-quick-start">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">使用Gridea和Github Pages搭建个人博客快速上手教程</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
+        <p>如果您之前使用过 Github 来搭建过自己的网站或者博客，那么您可以很轻松的上手 Gridea。<br>
+如果您使用过 Hugo、Hexo、Jekyll 等类似于这样的静态网站生成工具，您会体验到 Gridea 是多么的人性化。<br>
+如果您并非开发者或者说是小小白，根据下面的操作，您照样可以轻松搭建您的网站或者博客！</p>
 
-        </div>
+      </div>
+      <div class="text-gray-400 text-sm font-light">2019-12-14 / 4 min read</div>
+    </div>
+  </section>
 
-        
-
-
-        <div class="flex justify-between py-8">
-          
-
-          
-        </div>
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '3ba242426c9a6869cd34',
-    clientSecret: '74030c5aa589cf4fe4ce16fd9f650b8058f6ed74',
-    repo: 'ihtao127.github.io',
-    owner: 'ihtao127',
-    admin: ['ihtao127'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
+        <div class="pagination-container animated fadeIn">
+  
+  
+</div>
 
       </div>
     </div>

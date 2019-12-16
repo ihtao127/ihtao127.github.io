@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihtao127.github.io</id>
     <title>海涛RUNner</title>
-    <updated>2019-12-16T16:20:23.963Z</updated>
+    <updated>2019-12-16T16:26:06.650Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihtao127.github.io"/>
     <link rel="self" href="https://ihtao127.github.io/atom.xml"/>
@@ -12,10 +12,10 @@
     <rights>All rights reserved 2019, 海涛RUNner</rights>
     <entry>
         <title type="html"><![CDATA[使用Gridea和Github Pages搭建个人博客快速上手教程]]></title>
-        <id>https://ihtao127.github.io/post/gridea-kuai-su-shang-shou-jiao-cheng</id>
-        <link href="https://ihtao127.github.io/post/gridea-kuai-su-shang-shou-jiao-cheng">
+        <id>https://ihtao127.github.io/post/gridea-quick-start</id>
+        <link href="https://ihtao127.github.io/post/gridea-quick-start">
         </link>
-        <updated>2019-12-14T14:32:07.000Z</updated>
+        <updated>2019-12-14T00:32:07.000Z</updated>
         <summary type="html"><![CDATA[<p>如果您之前使用过 Github 来搭建过自己的网站或者博客，那么您可以很轻松的上手 Gridea。<br>
 如果您使用过 Hugo、Hexo、Jekyll 等类似于这样的静态网站生成工具，您会体验到 Gridea 是多么的人性化。<br>
 如果您并非开发者或者说是小小白，根据下面的操作，您照样可以轻松搭建您的网站或者博客！</p>
@@ -56,13 +56,13 @@
 <li>分支：你的 Github Pages 对应的分支（例如：master 或 gh-pages）</li>
 <li>用户名：仓库所属用户的用户名（通常就是你的 Github 账号的昵称，例如：Suremotoo）</li>
 <li>邮箱：Git 推送时使用的邮箱（通常就是你的 Github 账号的邮箱，例如：suremotoo@163.com）</li>
-<li>Token: Git 推送时需要的 Token，用来向 Github 提交构建后的文件 这里的token就是 第三步 申请的 Github personal access tokens</li>
+<li>Token: Git 推送时需要的 Token，用来向 Github 提交构建后的文件 这里的token就是【第三步】申请的 Github personal access tokens</li>
 <li>CNAME: 可通过这个【可选项】配置你自己的域名（例如：suremotoo.site）</li>
 </ul>
 <p>填写上面的信息后，点击 「检测远程连接」 按钮，如果提示 「远程连接成功」 那就ok啦。<br>
 <img src="https://ihtao127.github.io/post-images/1576512900380.png" alt=""></p>
 <h1 id="五-使用-gitalk-为网站添加评论"><strong>五、使用 Gitalk 为网站添加评论</strong></h1>
-<p>找不到 「Developer settings」 的位置可以参考 第三步<br>
+<p>找不到 「Developer settings」 的位置可以参考【第三步】<br>
 我们在进入个人 「Settings」 里，再 依次选择 「Developer settings」→ 「OAuth Apps」→ 「New OAuth App」 创建一个应用。<br>
 <img src="https://ihtao127.github.io/post-images/1576512986325.png" alt=""><br>
 紧接着按照下图说明，填写注册应用信息：<br>
