@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihtao127.github.io</id>
     <title>海涛RUNner</title>
-    <updated>2019-12-16T16:26:06.650Z</updated>
+    <updated>2019-12-16T19:15:59.142Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihtao127.github.io"/>
     <link rel="self" href="https://ihtao127.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://ihtao127.github.io/post/gridea-quick-start</id>
         <link href="https://ihtao127.github.io/post/gridea-quick-start">
         </link>
-        <updated>2019-12-14T00:32:07.000Z</updated>
+        <updated>2019-12-13T17:32:07.000Z</updated>
         <summary type="html"><![CDATA[<p>如果您之前使用过 Github 来搭建过自己的网站或者博客，那么您可以很轻松的上手 Gridea。<br>
 如果您使用过 Hugo、Hexo、Jekyll 等类似于这样的静态网站生成工具，您会体验到 Gridea 是多么的人性化。<br>
 如果您并非开发者或者说是小小白，根据下面的操作，您照样可以轻松搭建您的网站或者博客！</p>
