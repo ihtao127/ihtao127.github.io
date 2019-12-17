@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihtao127.github.io</id>
     <title>海涛RUNner</title>
-    <updated>2019-12-17T19:46:22.662Z</updated>
+    <updated>2019-12-17T20:16:56.775Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihtao127.github.io"/>
     <link rel="self" href="https://ihtao127.github.io/atom.xml"/>
@@ -81,7 +81,7 @@
         <id>https://ihtao127.github.io/post/about</id>
         <link href="https://ihtao127.github.io/post/about">
         </link>
-        <updated>1990-01-24T22:00:00.000Z</updated>
+        <updated>1990-01-24T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
 ]]></summary>
         <content type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
@@ -95,7 +95,7 @@
 <p>有兴趣与我交流的朋友，欢迎大家通过各种方式与我取得联系。</p>
 <p>WeChat：ihtao127<br>
 Skype：lsxjlcool@qq.com<br>
-<a href="https://weibo.com/ihtao127">Weibo</a> / <a href="https://www.linkedin.com/in/liuhaitao127">LinkedIn</a> / <a href="https://www.instagram.com/ihtao127">Instagram</a> / <a href="https://twitter.com/ihtao127">Twitter</a> / <a href="https://facebook.com/ihtao127">Facebook</a></p>
+<a href="https://weibo.com/ihtao127">Weibo</a> / <a href="https://www.linkedin.com/in/liuhaitao127">LinkedIn</a> / <a href="https://www.instagram.com/ihtao127">Instagram</a> / <a href="https://twitter.com/ihtao127">Twitter</a></p>
 ]]></content>
     </entry>
 </feed>
