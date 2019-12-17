@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>海涛RUNner</title>
 <meta name="description" content="JUST DO IT" />
-<link rel="shortcut icon" href="https://ihtao127.github.io/favicon.ico?v=1576613813207">
+<link rel="shortcut icon" href="https://ihtao127.github.io/favicon.ico?v=1576616201966">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -24,7 +24,7 @@
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://ihtao127.github.io">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://ihtao127.github.io/images/avatar.png?v=1576613813207" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://ihtao127.github.io/images/avatar.png?v=1576616201966" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">海涛RUNner</h1>
       </div>
@@ -100,7 +100,7 @@
 <!-- more -->
 <h1 id="一-预备工作"><strong>一、预备工作</strong></h1>
 <p>文章中使用 Github 作为样例，Coding 的配置方式大同小异。<br>
-⚠️注意： 要在本机安装好 <a href="https://gridea.dev/">Gridea</a> 和 <a href="https://git-scm.com/">Git</a>，点此查看 <a href="https://suremotoo.site/blog/post/git-install/">Git 安装教程</a>。</p>
+⚠️注意： 要在本机安装好 <a href="https://gridea.dev">Gridea</a> 和 <a href="https://git-scm.com">Git</a>，点此查看 <a href="https://suremotoo.site/blog/post/git-install">Git 安装教程</a>。</p>
 <h1 id="二-注册-github-账号并创建仓库"><strong>二、注册 Github 账号并创建仓库</strong></h1>
 <p>已经注册并成功建好仓库略过此步骤<br>
 打开 Github 的官方网站： <a href="https://github.com">https://github.com</a>，如果你没有用过github，默认打开的页面就是注册页面，如下：<br>
@@ -130,13 +130,13 @@
 <li>分支：你的 Github Pages 对应的分支（例如：master 或 gh-pages）</li>
 <li>用户名：仓库所属用户的用户名（通常就是你的 Github 账号的昵称，例如：Suremotoo）</li>
 <li>邮箱：Git 推送时使用的邮箱（通常就是你的 Github 账号的邮箱，例如：suremotoo@163.com）</li>
-<li>Token: Git 推送时需要的 Token，用来向 Github 提交构建后的文件 这里的token就是【第三步】申请的 Github personal access tokens</li>
-<li>CNAME: 可通过这个【可选项】配置你自己的域名（例如：suremotoo.site）</li>
+<li>Token: Git 推送时需要的 Token，用来向 Github 提交构建后的文件 这里的token就是<a href="https://www.haitao127.com/post/gridea-quick-start/#%E4%B8%89-%E7%94%B3%E8%AF%B7-personal-access-token%EF%B8%8Ftoken%E5%80%BC%E8%A6%81%E4%BF%9D%E5%AD%98%E5%A5%BD">第三步</a>申请的 Github personal access tokens</li>
+<li>CNAME: 可通过这个可选项配置你自己的域名（例如：suremotoo.site）</li>
 </ul>
 <p>填写上面的信息后，点击 「检测远程连接」 按钮，如果提示 「远程连接成功」 那就ok啦。<br>
 <img src="https://ihtao127.github.io/post-images/1576512900380.png" alt=""></p>
 <h1 id="五-使用-gitalk-为网站添加评论"><strong>五、使用 Gitalk 为网站添加评论</strong></h1>
-<p>找不到 「Developer settings」 的位置可以参考【第三步】<br>
+<p>找不到 「Developer settings」 的位置可以参考<a href="https://www.haitao127.com/post/gridea-quick-start/#%E4%B8%89-%E7%94%B3%E8%AF%B7-personal-access-token%EF%B8%8Ftoken%E5%80%BC%E8%A6%81%E4%BF%9D%E5%AD%98%E5%A5%BD">第三步</a><br>
 我们在进入个人 「Settings」 里，再 依次选择 「Developer settings」→ 「OAuth Apps」→ 「New OAuth App」 创建一个应用。<br>
 <img src="https://ihtao127.github.io/post-images/1576512986325.png" alt=""><br>
 紧接着按照下图说明，填写注册应用信息：<br>
@@ -147,7 +147,7 @@
 <img src="https://ihtao127.github.io/post-images/1576513006005.png" alt=""><br>
 这样评论插件就设置好了，在预览时会在文章页显示评论模块，但不会显示具体的评论信息，因为这个是本地预览，而 Github OAuth 设置的域名为线上的域名。待博客同步到线上时就可以显示啦！<br>
 注意：博客同步后，每一篇需要你手动去激活评论，也就是在评论的地方需要你使用Github先登陆一下，这样就完成了初始化，别人才能评论哟。</p>
-<p><a href="https://blog.suremotoo.site/post/gridea-quick-start-guide/">原文</a>由 <a href="https://github.com/Suremotoo">@Suremotoo</a> 综合整理发布。</p>
+<p><a href="https://blog.suremotoo.site/post/gridea-quick-start-guide">原文</a>由 <a href="https://github.com/Suremotoo">@Suremotoo</a> 综合整理发布。</p>
 
         </div>
 
