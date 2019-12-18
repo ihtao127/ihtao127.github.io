@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihtao127.github.io</id>
     <title>海涛RUNner</title>
-    <updated>2019-12-18T15:09:37.997Z</updated>
+    <updated>2019-12-18T15:32:07.648Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihtao127.github.io"/>
     <link rel="self" href="https://ihtao127.github.io/atom.xml"/>
@@ -74,6 +74,32 @@
 这样评论插件就设置好了，在预览时会在文章页显示评论模块，但不会显示具体的评论信息，因为这个是本地预览，而 Github OAuth 设置的域名为线上的域名。待博客同步到线上时就可以显示啦！<br>
 注意：博客同步后，每一篇需要你手动去激活评论，也就是在评论的地方需要你使用Github先登陆一下，这样就完成了初始化，别人才能评论哟。</p>
 <p><a href="https://blog.suremotoo.site/post/gridea-quick-start-guide">原文</a>由 <a href="https://github.com/Suremotoo">@Suremotoo</a> 综合整理发布。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://ihtao127.github.io/post/about</id>
+        <link href="https://ihtao127.github.io/post/about">
+        </link>
+        <updated>1990-01-22T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
+<!-- more -->
+<h1 id="关于本站">🏡 关于本站</h1>
+<p>本博客记录并整理发布控制系统及IT技术相关的文章，或摄影作品等其他内容。</p>
+<h1 id="个人履历">👨‍ 个人履历</h1>
+<p>2008-2012：<a href="http://www.scu.edu.cn">四川大学</a>计算机科学与技术专业，本科学习。<br>
+2012-至今：<a href="http://www.impcas.ac.cn">中国科学院近代物理研究所</a>，控制系统工程师。<br>
+2019-至今：<a href="https://europeanspallationsource.se">欧洲散裂中子源 (ESS ERIC)</a>，访问学者。</p>
+<h1 id="技术方向">👨‍💻 技术方向</h1>
+<p>加速器控制系统、<a href="https://epics-controls.org">EPICS控制系统</a>、UI设计、软件开发、系统集成。</p>
+<h1 id="兴趣爱好">📸 兴趣爱好</h1>
+<p>跑步、<a href="https://liuhaitao.tuchong.com">摄影</a>、音乐。</p>
+<h1 id="联系方式">📬 联系方式</h1>
+<p>WeChat：ihtao127<br>
+Skype：lsxjlcool@qq.com<br>
+<a href="https://weibo.com/ihtao127">Weibo</a> / <a href="https://www.linkedin.com/in/liuhaitao127">LinkedIn</a> / <a href="https://www.instagram.com/ihtao127">Instagram</a> / <a href="https://twitter.com/ihtao127">Twitter</a></p>
 ]]></content>
     </entry>
 </feed>
