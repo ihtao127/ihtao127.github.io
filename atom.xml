@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihtao127.github.io</id>
     <title>海涛RUNner</title>
-    <updated>2019-12-18T15:41:34.495Z</updated>
+    <updated>2020-01-01T14:49:40.859Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihtao127.github.io"/>
     <link rel="self" href="https://ihtao127.github.io/atom.xml"/>
     <subtitle>🙋🏻‍♂️ Hi~，你好！这里是我的个人网站，我在这里记录并整理发布控制系统及IT技术相关的文章，或摄影作品等其他内容，欢迎关注！</subtitle>
     <logo>https://ihtao127.github.io/images/avatar.png</logo>
     <icon>https://ihtao127.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, 海涛RUNner</rights>
+    <rights>All rights reserved 2020, 海涛RUNner</rights>
     <entry>
         <title type="html"><![CDATA[使用Gridea和Github Pages搭建个人博客快速上手教程]]></title>
         <id>https://ihtao127.github.io/post/gridea-quick-start</id>
@@ -30,26 +30,26 @@
 <h1 id="二-注册-github-账号并创建仓库"><strong>二、注册 Github 账号并创建仓库</strong></h1>
 <p>已经注册并成功建好仓库略过此步骤<br>
 打开 Github 的官方网站： <a href="https://github.com">https://github.com</a>，如果你没有用过github，默认打开的页面就是注册页面，如下：<br>
-<img src="https://ihtao127.github.io/post-images/1576511886464.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576511886464.png" alt="" loading="lazy"><br>
 注册自己的github账号，注册成功后，我们新建个仓库，用来存储网站的代码。点击图中的按钮<br>
-<img src="https://ihtao127.github.io/post-images/1576511915130.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576511915130.png" alt="" loading="lazy"><br>
 然后跳转到新建仓库详情页，填写仓库的基本信息。<br>
 ⚠️注意：小白最好按照图中的操作说明来，避免不必要的问题。<br>
-<img src="https://ihtao127.github.io/post-images/1576511931686.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576511931686.png" alt="" loading="lazy"><br>
 比如我的github用户名叫：ihtao127， 所以仓库名就叫： ihtao127.github.io</p>
 <h1 id="三-申请-personal-access-token️token值要保存好"><strong>三、申请 Personal access token（⚠️Token值要保存好）</strong></h1>
 <p>接下来我们要申请 Personal access token，这样 Gridea 才能有权限将网站文件推送到你的仓库中。 我不直接给出申请token的链接，为了大家以后忘了自己还能找到该功能。 我们按照下图标的顺序，点击 「右上角自己的头像右边的小箭头」→ 「Settings」→ 「Developer settings」<br>
-<img src="https://ihtao127.github.io/post-images/1576512742173.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576512742173.png" alt="" loading="lazy"><br>
 再依次选择 「Developer settings」→ 「Personal access tokens」→ 「Generate new token」<br>
-<img src="https://ihtao127.github.io/post-images/1576512750354.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576512750354.png" alt="" loading="lazy"><br>
 我们起个名字（或者说是备注），说明这个 token是用来干什么的。token 的权限我们只选择 Repo。<br>
-<img src="https://ihtao127.github.io/post-images/1576512754397.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576512754397.png" alt="" loading="lazy"><br>
 申请成功，会给你一串数字+字母的信息，这个就是 Token，我们一定要保存好！后面的配置中我们会用到。<br>
-<img src="https://ihtao127.github.io/post-images/1576512767419.png" alt=""></p>
+<img src="https://ihtao127.github.io/post-images/1576512767419.png" alt="" loading="lazy"></p>
 <h1 id="四-配置-gridea-与-github"><strong>四、配置 Gridea 与 Github</strong></h1>
 <p>举例：如果Github 用户名叫： Suremotoo<br>
 配置 Gridea，来连接 Github 。可以参考下面的方法进行配置：<br>
-<img src="https://ihtao127.github.io/post-images/1576512845195.png" alt=""></p>
+<img src="https://ihtao127.github.io/post-images/1576512845195.png" alt="" loading="lazy"></p>
 <ul>
 <li>域名：Github Pages 对应的域名（例如：https://Suremotoo.github.io 或 https://suremotoo.site）</li>
 <li>仓库：你的静态文件存放的仓库（例如：Suremotoo.github.io ）</li>
@@ -60,17 +60,17 @@
 <li>CNAME: 可通过这个可选项配置你自己的域名（例如：suremotoo.site）</li>
 </ul>
 <p>填写上面的信息后，点击 「检测远程连接」 按钮，如果提示 「远程连接成功」 那就ok啦。<br>
-<img src="https://ihtao127.github.io/post-images/1576512900380.png" alt=""></p>
+<img src="https://ihtao127.github.io/post-images/1576512900380.png" alt="" loading="lazy"></p>
 <h1 id="五-使用-gitalk-为网站添加评论"><strong>五、使用 Gitalk 为网站添加评论</strong></h1>
 <p>找不到 「Developer settings」 的位置可以参考<a href="https://www.haitao127.com/post/gridea-quick-start/#%E4%B8%89-%E7%94%B3%E8%AF%B7-personal-access-token%EF%B8%8Ftoken%E5%80%BC%E8%A6%81%E4%BF%9D%E5%AD%98%E5%A5%BD">第三步</a><br>
 我们在进入个人 「Settings」 里，再 依次选择 「Developer settings」→ 「OAuth Apps」→ 「New OAuth App」 创建一个应用。<br>
-<img src="https://ihtao127.github.io/post-images/1576512986325.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576512986325.png" alt="" loading="lazy"><br>
 紧接着按照下图说明，填写注册应用信息：<br>
-<img src="https://ihtao127.github.io/post-images/1576512998006.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576512998006.png" alt="" loading="lazy"><br>
 填写完成之后，会有有个 ClientID 和 ClientSecret ， 我们保存下这两条信息，来配置Gridea：<br>
-<img src="https://ihtao127.github.io/post-images/1576513002207.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576513002207.png" alt="" loading="lazy"><br>
 打开 Gridea，依次进入 「配置」→ 「评论配置」，按照下图说明填写信息：<br>
-<img src="https://ihtao127.github.io/post-images/1576513006005.png" alt=""><br>
+<img src="https://ihtao127.github.io/post-images/1576513006005.png" alt="" loading="lazy"><br>
 这样评论插件就设置好了，在预览时会在文章页显示评论模块，但不会显示具体的评论信息，因为这个是本地预览，而 Github OAuth 设置的域名为线上的域名。待博客同步到线上时就可以显示啦！<br>
 注意：博客同步后，每一篇需要你手动去激活评论，也就是在评论的地方需要你使用Github先登陆一下，这样就完成了初始化，别人才能评论哟。</p>
 <p><a href="https://blog.suremotoo.site/post/gridea-quick-start-guide">原文</a>由 <a href="https://github.com/Suremotoo">@Suremotoo</a> 综合整理发布。</p>
@@ -81,7 +81,7 @@
         <id>https://ihtao127.github.io/post/about</id>
         <link href="https://ihtao127.github.io/post/about">
         </link>
-        <updated>1990-01-26T23:00:00.000Z</updated>
+        <updated>1990-01-26T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
 ]]></summary>
         <content type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
