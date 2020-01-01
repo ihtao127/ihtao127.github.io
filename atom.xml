@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ihtao127.github.io</id>
     <title>海涛RUNner</title>
-    <updated>2020-01-01T15:25:54.233Z</updated>
+    <updated>2020-01-01T15:27:12.323Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ihtao127.github.io"/>
     <link rel="self" href="https://ihtao127.github.io/atom.xml"/>
@@ -81,7 +81,7 @@
         <id>https://ihtao127.github.io/post/about</id>
         <link href="https://ihtao127.github.io/post/about">
         </link>
-        <updated>1990-01-26T09:00:00.000Z</updated>
+        <updated>1990-01-26T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
 ]]></summary>
         <content type="html"><![CDATA[<p><strong>我是海涛，我选择做我自己！</strong></p>
