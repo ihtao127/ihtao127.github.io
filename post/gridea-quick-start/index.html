@@ -7,7 +7,7 @@
 <title>使用Gridea和Github Pages搭建个人博客快速上手教程 - 海涛RUNner</title>
 <link rel="shortcut icon" href="https://ihtao127.github.io/favicon.ico">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"> -->
 <link rel="stylesheet" href="https://ihtao127.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://ihtao127.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="使用Gridea和Github Pages搭建个人博客快速上手教程 - 海涛RUNner - Atom Feed" href="https://ihtao127.github.io/atom.xml">
@@ -55,27 +55,27 @@
         <div class="mb-8 flex flex-wrap">
           <div class="text-gray-400 text-sm mr-4">2019-12-12 · 4 min read</div>
           
-            <a href="https://ihtao127.github.io/tag/sjm_jCwN7/" class="inherit text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
+            <a href="https://ihtao127.github.io/tag/sjm_jCwN7/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
               <i class="ri-hashtag"></i>
               gridea
             </a>
           
-            <a href="https://ihtao127.github.io/tag/8WOQwqI6Vy/" class="inherit text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
+            <a href="https://ihtao127.github.io/tag/8WOQwqI6Vy/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
               <i class="ri-hashtag"></i>
               blog
             </a>
           
-            <a href="https://ihtao127.github.io/tag/rpPmPIYfeI/" class="inherit text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
+            <a href="https://ihtao127.github.io/tag/rpPmPIYfeI/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
               <i class="ri-hashtag"></i>
               博客
             </a>
           
-            <a href="https://ihtao127.github.io/tag/AhceV5VA6c/" class="inherit text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
+            <a href="https://ihtao127.github.io/tag/AhceV5VA6c/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
               <i class="ri-hashtag"></i>
               github
             </a>
           
-            <a href="https://ihtao127.github.io/tag/4G5k59bd5S/" class="inherit text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
+            <a href="https://ihtao127.github.io/tag/4G5k59bd5S/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
               <i class="ri-hashtag"></i>
               gitalk
             </a>
@@ -157,25 +157,7 @@
 
       
 
-      
-        <div id="vlaine-comment"></div>
-<script type="application/javascript" src="https://unpkg.com/valine"></script>
-<script type="application/javascript">
-  new Valine({
-    el: '#vlaine-comment',
-    appId: '2K2mOqAmCMGGcPXCFyz7lkke-MdYXbMMI',
-    appKey: 'fG49SbqSozxojCn1uteudE66',
-    pageSize: 10,
-    notify: true,
-    avatar: 'identicon',
-    verify: true,
-    placeholder: '走过路过，评论一下~',
-    visitor: true,
-    highlight: false,
-    recordIP: true,
-  })
-</script>
-      
+      <div id="vlaine-comment"></div>
 
       <footer class="py-12 text-center px-4 md:px-0" v-pre>
   做最好的自己，看最美的风景。
@@ -187,7 +169,7 @@
       <i class="ri-file-list-line"></i>
     </div>
 
-    <div class="fixed right-0 top-0 bottom-0 overflow-y-auto w-64 bg-white dark:bg-gray-600 p-4 border-l border-gray-100 dark:border-gray-700 z-10 transition-fast" :class="{ '-mr-64': !showToc }">
+    <div class="fixed right-0 top-0 bottom-0 overflow-y-auto w-64 bg-white dark:bg-gray-800 p-4 border-l border-gray-100 dark:border-gray-600 z-10 transition-fast" :class="{ '-mr-64': !showToc }">
       <div class="flex mb-4 justify-end">
         <div class="w-8 h-8 inline-flex justify-center items-center rounded-full cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast" @click="showToc = false">
           <i class="ri-close-line text-lg"></i>
@@ -355,6 +337,35 @@
     }
     //初始化
     initImg();
+  </script>
+  <script type="application/javascript" src="https://ihtao127.github.io/media/scripts/valine.min.js"></script>
+  <script type="application/javascript">
+  
+    // var valine = new Valine();
+    // valine.init({
+    //   el: '#vlaine-comment',
+    //   appId: '2K2mOqAmCMGGcPXCFyz7lkke-MdYXbMMI',
+    //   appKey: 'fG49SbqSozxojCn1uteudE66',
+    //   notify: true,
+    //   avatar: 'identicon',
+    //   verify: true,
+    //   placeholder: '走过路过，评论一下~',
+    //   visitor: true,
+    //   highlight: false,
+    //   recordIP: true,
+    // })
+  
+    var valine = new Valine();
+    valine.init({
+      el: '#vlaine-comment',
+      appId: '2K2mOqAmCMGGcPXCFyz7lkke-MdYXbMMI',
+      appKey: 'fG49SbqSozxojCn1uteudE66',
+      notify: false,
+      verify: false,
+      visitor: true,
+      avatar: 'mp',
+      placeholder: '加入讨论...'
+    })
   </script>
 </body>
 
