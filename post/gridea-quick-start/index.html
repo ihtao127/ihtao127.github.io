@@ -7,7 +7,7 @@
 <title>使用Gridea和Github Pages搭建个人博客快速上手教程 - 海涛RUNner</title>
 <link rel="shortcut icon" href="https://ihtao127.github.io/favicon.ico">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
 <link rel="stylesheet" href="https://ihtao127.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://ihtao127.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="使用Gridea和Github Pages搭建个人博客快速上手教程 - 海涛RUNner - Atom Feed" href="https://ihtao127.github.io/atom.xml">
@@ -157,7 +157,9 @@
 
       
 
-      <div id="vlaine-comment"></div>
+      
+        <div id="vlaine-comment"></div>
+      
 
       <footer class="py-12 text-center px-4 md:px-0" v-pre>
   做最好的自己，看最美的风景。
@@ -338,35 +340,25 @@
     //初始化
     initImg();
   </script>
-  <script type="application/javascript" src="https://ihtao127.github.io/media/scripts/valine.min.js"></script>
-  <script type="application/javascript">
   
-    // var valine = new Valine();
-    // valine.init({
-    //   el: '#vlaine-comment',
-    //   appId: '2K2mOqAmCMGGcPXCFyz7lkke-MdYXbMMI',
-    //   appKey: 'fG49SbqSozxojCn1uteudE66',
-    //   notify: true,
-    //   avatar: 'robohash',
-    //   verify: true,
-    //   placeholder: '走过路过，别忘了评论一下~~~',
-    //   visitor: true,
-    //   highlight: false,
-    //   recordIP: true,
-    // })
+    <script type="application/javascript" src="https://unpkg.com/valine"></script>
+<script type="application/javascript">
+  new Valine({
+    el: '#vlaine-comment',
+    appId: '2K2mOqAmCMGGcPXCFyz7lkke-MdYXbMMI',
+    appKey: 'fG49SbqSozxojCn1uteudE66',
+    pageSize: 10,
+    notify: true,
+    avatar: 'robohash',
+    verify: true,
+    placeholder: '走过路过，别忘了评论一下~~~',
+    visitor: true,
+    highlight: false,
+    recordIP: true,
+  })
+</script>
   
-    var valine = new Valine();
-    valine.init({
-      el: '#vlaine-comment',
-      appId: '2K2mOqAmCMGGcPXCFyz7lkke-MdYXbMMI',
-      appKey: 'fG49SbqSozxojCn1uteudE66',
-      notify: false,
-      verify: false,
-      visitor: true,
-      avatar: 'mp',
-      placeholder: '加入讨论...'
-    })
-  </script>
+  
 </body>
 
 </html>
