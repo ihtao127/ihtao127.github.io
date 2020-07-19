@@ -777,6 +777,34 @@ ul li {
 .site-footer .footer-info {
   padding-bottom: 10px;
 }
+.friend-box {
+  float: left;
+  width: calc(50% - 20px);
+  margin: 15px 10px;
+}
+.friend-box img.friend-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50% !important;
+  float: left;
+  margin: 0 15px 0 0 !important;
+}
+.friend-box .flink-info {
+  height: 70px;
+  overflow: hidden;
+  line-height: 24px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.friend-box .flink-info a {
+  font-size: 18px;
+  color: #000 !important;
+  background: linear-gradient(180deg, transparent 75%, rgba(116, 192, 252, 0.4) 0);
+  margin-bottom: 10px;
+}
+.friend-box .flink-info .flink-info-desc {
+  margin-top: 10px;
+}
 /*
 
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
@@ -849,6 +877,29 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 }
 .hljs-strong {
   font-weight: bold;
+}
+/* 代码滑块 */
+pre::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+pre::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #cbcbcb;
+}
+pre::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
+}
+code::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+code::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #cbcbcb;
+}
+code::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
 }
 @font-face {
   font-family: KaTeX_AMS;
